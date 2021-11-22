@@ -1,0 +1,631 @@
+html,body {
+	margin: 0px;
+	color: Black;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #d7d7d7;
+	}
+img {border: 0px;}
+#main_container {
+	background: #d7d7d7;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width:971px;
+	float:left;
+}
+
+/* -------------------------- HEADER SECTION ----------------------------*/
+#top_container {
+	width:971px;
+	height:120px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#top_left_container {
+	width:222px;
+	height:120px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#top_right_container {
+	width:749px;
+	height:120px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#top_right_paperprocess {
+	width:749px;
+	height:90px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#top_right_nav {
+	width:749px;
+	height:30px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+
+/* -------------------------- BODY/CONTENT SECTION ----------------------------*/
+#content_container {
+	width:971px;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background:#fff;
+	background:#fff url(/images/bg_content.jpg) top repeat-y;
+}
+#content_left {
+	width:721px;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#content_left_top {
+	width:721px;
+	height:276px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#content_left_top_about {
+	width:222px;
+	height:276px;
+	background-color:#b3c5db;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#content_left_top_about_text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#14384e;
+	float:left;
+	margin:0px;
+	padding:30px 20px 10px 20px;
+	width:180px;
+	text-align:left;
+}
+#content_left_top_about_text a {
+	color:#14384e;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_top_about_text a:hover {
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_bottom {
+	width:721px;
+	min-height:180px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background:#FFFFFF;
+}
+#content_left_bottom_green {
+	width:222px;
+	min-height:180px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#668b46;
+	text-align:left;
+}
+#content_left_bottom_green a {
+	color:#668b46;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_bottom_green a:hover {
+	color:#b3c5d9;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_bottom_brown {
+	width:221px;
+	min-height:180px;
+	float:left;
+	margin:0px 0px 0px 29px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#98481c;
+	text-align:left;
+}
+#content_left_bottom_brown a {
+	color:#98481c;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_bottom_brown a:hover {
+	color:#b3c5d9;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_bottom_orange {
+	width:221px;
+	min-height:180px;
+	float:left;
+	margin:0px 0px 0px 28px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ff8500;
+	text-align:left;
+}
+#content_left_bottom_orange a {
+	color:#ff8500;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_left_bottom_orange a:hover {
+	color:#b3c5d9;
+	text-decoration:none;
+	font-weight:bold;
+}
+#gray_top {
+	background:#d7d7d7;
+	width:250px;
+	height:8px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	}
+*html #gray_top {
+	background:#d7d7d7;
+	width:250px;
+	height:8px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	}
+#content_right {
+	width:250px;
+	min-height:448px;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background-color:#16394f;
+}
+#content_right_text {
+	width:220px;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:15px 0px 0px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#b2c5d9;
+	text-align:left;
+}
+#content_right_text a {
+	color:#b2c5d9;
+	font-weight:bold;
+	text-decoration:none;
+}
+#content_right_text a:hover {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+/* -------------------------- MEDIA SECTION ----------------------------*/
+
+#media_left {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#8897a6;
+	float:left;
+	width:200px;
+	margin:0px;
+	padding:20px 20px 10px 60px;
+	text-align:left;
+	}
+#media_left a {
+	color:#8897a6;
+	text-decoration:none;
+	}
+#media_left a:hover {
+	color:#16384e;
+	text-decoration:none;
+	}
+#media_right {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#16384e;
+	float:left;
+	width:361px;
+	margin:0px;
+	padding:20px 60px 10px 20px;
+	text-align:left;
+	}
+
+
+
+
+/* -------------------------- PRODUCTS SECTION ----------------------------*/
+
+#content_product_left {
+	width:971px;
+	height:auto;
+	float:left;
+	margin:0px;
+	padding:0px;
+	background:#fff;
+}
+
+#products_left {
+	float:left;
+	width:260px;
+	margin:0px 20px 0px 0px;
+	padding:0px;
+	text-align:left;
+	text-transform:uppercase;
+	}
+
+#products_right {
+	float:left;
+	width:691px;
+	margin:0px;
+	*margin:-3px 0px -3px 0px;
+	padding:0px;
+	}
+
+
+/* -------------------------- SHOP SECTION ----------------------------*/
+
+#shop_content{
+	width:971px;
+	min-height:500px;
+	float:left;
+	background:#fff;
+	margin:8px 0px 0px 0px;
+	*margin:0px 0px -5px 0px;
+	padding:0px;
+	}
+#shop_title {
+	width:971px;
+	height:37px;
+	background:#b2c5d9;
+	float:left;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	}
+#shop_cart {
+	width:966px;
+	height:22px;
+	background:#16384e;
+	float:left;
+	margin:0px;
+	padding:3px 5px 0px 0px;
+	}
+
+
+#shop_left {
+	background:url(/images/shop/DM_shop_iframe_left_bg.gif) top repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#16384e;
+	float:left;
+	width:305px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	text-align:left;
+	}
+#shop_left_bluetop {
+	float:left; 
+	width:306px; 
+	*width:280px; 
+	height:26px; 
+	background:#19374f;
+	margin:0px;
+	padding:0px;
+	}
+
+#shop_right {
+	float:left;
+	width:665px;
+	min-height:500px;
+	margin:0px;
+	padding:0px;
+	}
+#shop_apparel {
+	float:left;
+	width:579px;
+	min-height:21px;
+	margin:0px 0px 0px 25px;
+	padding:5px 3px 0px 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#16384e;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:#d7d7d7;
+	position:relative;
+	text-align:left;
+	}
+#shop_apparel_white {
+	float:left;
+	width:579px;
+	min-height:21px;
+	margin:0px 0px 0px 25px;
+	padding:5px 3px 0px 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:8px;
+	color:#fff;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:#fff;
+	position:relative;
+	text-align:left;
+	}
+#shop_apparel_container_box {
+	float:left; 
+	width:100px; 
+	margin:20px 0px 0px 25px;
+	position:relative;
+	}
+#shop_apparel_container {
+	float:left;
+	width:650px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	}
+#shop_apparel_item {
+	float:left;
+	width:100px;
+	height:98px;
+	margin:0px;
+	padding:0px;
+	border:1px solid #16384e;
+	background:#16384e;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	font-size:10px;
+	text-transform:uppercase;
+	letter-spacing:-1px;
+	text-align:left;
+	}
+#shop_padding {
+	float:left; 
+	width:35px;  
+	height:100px;
+	margin:20px 0px 0px 0px;
+	}
+
+/* -------------------------- start : NAVIGATION ----------------------------*/
+#btn_home { 
+width: 63px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/home.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_home #btn_home, #btn_home:hover {
+background-position: bottom left; 
+} 
+
+#btn_about { 
+width: 74px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/about.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_about #btn_about, #btn_about:hover {
+background-position: bottom left; 
+} 
+
+#btn_products { 
+width: 99px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/think_green.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_products #btn_products, #btn_products:hover {
+background-position: bottom left; 
+} 
+
+#btn_media { 
+width: 71px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/news.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_media #btn_media, #btn_media:hover {
+background-position: bottom left; 
+} 
+
+#btn_shop { 
+width: 65px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/nfts.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_shop #btn_shop, #btn_shop:hover {
+background-position: bottom left; 
+} 
+
+#btn_careers { 
+width: 89px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/roadmap.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_careers #btn_careers, #btn_careers:hover {
+background-position: bottom left; 
+}
+
+
+#btn_contact { 
+width: 90px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/white_paper.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_contact #btn_contact, #btn_contact:hover {
+background-position: bottom left; 
+}
+
+#btn_intranet { 
+width: 88px; 
+height: 30px; 
+text-indent: 20000px; 
+overflow: hidden; 
+background:url(/images/contact.png) top left no-repeat; 
+display: block; 
+border:0px; 
+}
+
+body#navbtn_intranet #btn_intranet, #btn_intranet:hover {
+background-position: bottom left; 
+} 
+
+/* -------------------------- end : NAVIGATION ----------------------------*/
+
+
+/* -------------------------- start : CAREERS SECTION ----------------------------*/
+
+
+#careers_intro {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#14384e;
+	float:left;
+	margin:0px;
+	padding:20px;
+	text-align:left;
+	width:560px;
+	float:left;
+}
+
+#careers_intro ul li a {
+font-size:13px;
+font-weight:900;
+color:#14384e;
+text-decoration:none;
+}
+
+#careers_intro ul li a:hover {
+text-decoration:underline;
+}
+
+#apply_now {
+	width:100px;
+	float:left;
+	text-align:right;
+	padding-top:12px;
+	}
+#job_descriptions {
+	float:left;
+	width:350px;
+	margin:0px;
+	padding:0px;
+	}
+#job_details {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#14384e;
+	float:left;
+	width:310px;
+	margin:0px;
+	padding:0px 20px 20px 20px;
+	text-align:left;
+	}
+
+/* -------------------------- start : CONTACT SECTION ----------------------------*/
+
+
+#contact_intro {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#14384e;
+	float:left;
+	margin:0px;
+	padding:20px;
+	text-align:left;
+	width:670px;
+}
+
+#contact_footer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#14384e;
+	float:left;
+	margin:0px;
+	padding:20px;
+	text-align:center;
+	width:670px;
+}
+.black11v {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#14384e;
+	}
+
+/* -------------------------- start : THINK GREEN SECTION ----------------------------*/
+
+
+#thinkgreen_text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#668b46;
+	float:left;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	float:left;
+	background:url(/images/bg_thinkgreen.gif) top no-repeat;
+	width:721px;
+	height:407px;
+	}
+
+
+#hr {
+	width:220px;
+	height:1px;
+	float:left;
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	*padding:5px 0px 20px 0px;
+	}
